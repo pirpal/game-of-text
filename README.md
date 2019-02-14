@@ -1,28 +1,32 @@
 Game of Text
 ------------
 
-**Game of text** is an exotic and experimental variant of game of
+**Game of Text** is an exotic and experimental variant of game of
 life.
 
-# Rules
+# World
 
-## World
+The world of **Game of Text** is a two-dimensional array of dimensions
+80x80.
 
-The world of **Game of text** is a square of dimensions 100x100
-This 2d array is filled with characters from any source code file
+The world is created by parsing any code source file.
+Space and tabulations are empty cells on which characters can move.
+
 
 ## Characters
 
-The world is filled by characters grouped in families defining
+The world is filled with characters are grouped in families defining
 behavior :
 
-Uppercase letters () 
-Lowercase letters (a-z)
-Numbers           (0-9)
-Operators         (`+`, `-`, `/`, `*`, `%`, `=`, `<`, `>`)
-Brackets          ( `(`, `)`, `{`, `}`, `[`, `]`)
-
-* Uppercase letters > lowercase letters
-* space and tabulations are empty cells on which characters can move
+| Family           | Characters                      |
+|------------------|---------------------------------|
+| Upcase letters   | `A`-`Z`                         |
+| Downcase letters | `a` - `z`                       |
+| Numbers          | `0` - `9`                       |
+| Operators        | `+` `-` `/` `*` `%` `=` `<` `>` |
+| Brackets         | `(` `)` `{` `}` `[` `]`         |
+| Punctuations     | `!` `,` `.` `:` `;` `?`         |
+| Hyphens          | `-` `_`                         |
+| Specials         | `#` `$` `&` `@` `&#x7c;` `~`    |
 
 
