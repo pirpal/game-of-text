@@ -1,0 +1,3 @@
+# Game of Text - Requirements
+
+termcolor
