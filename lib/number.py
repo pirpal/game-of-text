@@ -9,3 +9,4 @@ class Number(Character):
     """
     def __init__(self, code, x, y):
         super(code, x, y)
+        self.has_operator = False

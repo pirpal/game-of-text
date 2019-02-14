@@ -1,13 +1,8 @@
 #!usr/bin/python3
 # coding: utf-8
 
-from unittest import TestCase
+def closeWorldMove():
+    pass
 
-grid = initGrid()
-
-class MovementTest(TestCase):
-    def closeWorldMove():
-        pass
-
-    def toreWorldMove():
-        pass
+def toreWorldMove():
+    pass

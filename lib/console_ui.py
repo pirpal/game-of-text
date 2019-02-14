@@ -7,9 +7,6 @@ from lib.constants import UNICODES
 Console output functions
 """
 
-def testConsoleColors():
-    for i in ["", "", "", "", "", "", "", ""]
-
 def showGrid(g):
     """
     showGrid([[int]]) => None

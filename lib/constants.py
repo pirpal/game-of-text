@@ -1,26 +1,6 @@
 #!usr/bin/python3
 # coding: utf-8
 
-# Constants ---------------------------------------------------------
-ALPHABET     = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-CHARACTERS_FAMILIES = [
-    "upletters", "downletters", "numbers", "brackets",
-    "operators", "puncts", "hyphens", "specials"
-]
-
-CHARACTERS = {
-    "upletters":   list(ALPHABET),
-    "downletters": list(ALPHABET.lower()),
-    "numbers":     list(range(10)),
-    "brackets":    list("()[]{}"),
-    "operators":   list("+-*/%<>="),
-    "puncts":      list(",?;.:!"),
-    "quotes":      list("\"'"),
-    "hyphens":     list("-_"),
-    "specials":    list("$@#"),
-}
-
 UNICODES = { # see ./charset.org
     "upletters":   list(range(65, 91)),
     "downletters": list(range(97, 123)),
